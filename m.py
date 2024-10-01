@@ -19,7 +19,6 @@ def check_password(password):
 
     return True
 
-# Считываем файл с паролями
 with open('passwords.txt', 'r') as file:
     for password in file:
         password = password.strip()
